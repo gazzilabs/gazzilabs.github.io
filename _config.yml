@@ -11,9 +11,9 @@ description: "Welcome to GazziLabs!"
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Kiok Ahn
+  pic: ceo
+  position: CEO
   social:
     - title: twitter
       url: #
@@ -22,9 +22,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Youngtak Cho
+  pic: cto
+  position: Lead AI Application
   social:
     - title: twitter
       url: #
@@ -33,9 +33,20 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Mingi Kim
+  pic: 1
+  position: Lead Video Archive Solutions
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Taewon Lee
   pic: 3
-  position: Lead Developer
+  position: Lead Media Technology
   social:
     - title: twitter
       url: #

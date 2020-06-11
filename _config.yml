@@ -12,8 +12,8 @@ description: "Welcome to GazziLabs!"
 # Team names, titles and social links
 people:
 - name: Kiok Ahn
-  pic: ceo
-  position: CEO
+  pic: CEO
+  position: 4
   social:
     - title: twitter
       url: #
@@ -23,7 +23,7 @@ people:
       url: #
 
 - name: Youngtak Cho
-  pic: cto
+  pic: 5
   position: Lead AI Application
   social:
     - title: twitter

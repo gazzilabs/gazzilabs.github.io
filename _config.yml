@@ -11,7 +11,7 @@ description: "Welcome to GazziLabs!"
 
 # Team names, titles and social links
 people:
-- name: Kiok Ahn
+- name: Kiok Ahn, Ph.D.
   pic: 4
   position: CEO
   social:
@@ -22,7 +22,7 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Youngtak Cho
+- name: Youngtak Cho, Ph.D.
   pic: 5
   position: Lead AI Application
   social:

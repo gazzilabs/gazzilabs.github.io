@@ -1,12 +1,12 @@
 remote_theme: y7kim/agency-jekyll-theme
-url: https://gazzilabs.github.io
-baseurl:
+url: "https://gazzilabs.github.io"
+baseurl: ""
 
 # Site settings
-encoding: UTF-8
-locale: ko-KR
-title: GazziLabs
-email: ytcho@gazzi.ai
+encoding: "UTF-8"
+locale: "en-US"
+title: "GazziLabs"
+email: "ytcho@gazzi.ai"
 description: "Welcome to GazziLabs!"
 
 

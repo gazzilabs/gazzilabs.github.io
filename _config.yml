@@ -3,6 +3,7 @@ url: https://gazzilabs.github.io
 baseurl:
 
 # Site settings
+encoding: UTF-8
 locale: ko-KR
 title: GazziLabs
 email: ytcho@gazzi.ai

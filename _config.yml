@@ -14,6 +14,7 @@ people:
 - name: Kiok Ahn, Ph.D.
   pic: 4
   position: CEO
+  desc: Machine Learning & Image Processing Specialist
   social:
     - title: twitter
       url: #
@@ -24,7 +25,8 @@ people:
 
 - name: Youngtak Cho, Ph.D.
   pic: 5
-  position: Lead AI Application
+  position: CTO, Lead AI Application
+  desc: AI & Image Processing
   social:
     - title: twitter
       url: #
@@ -36,6 +38,7 @@ people:
 - name: Mingi Kim
   pic: 1
   position: Lead Video Archive Solutions
+  desc: M.S. degree in Information Security Eng., DevOps
   social:
     - title: twitter
       url: #
@@ -47,6 +50,7 @@ people:
 - name: Taewon Lee
   pic: 3
   position: Lead Media Technology
+  desc: M.S. degree in Software Eng., Software Developer
   social:
     - title: twitter
       url: #
@@ -54,6 +58,19 @@ people:
       url: #
     - title: google-plus
       url: #
+
+
+- name: It's you
+  pic: recruit
+  position: We are hiring!
+  #desc:
+  #social:
+  #  - title: twitter
+  #    url: #
+  #  - title: facebook
+  #    url: #
+  #  - title: google-plus
+  #    url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

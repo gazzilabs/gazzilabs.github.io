@@ -26,7 +26,7 @@ people:
 - name: Youngtak Cho, Ph.D.
   pic: 5
   position: CTO, Lead AI Application
-  desc: AI & Image Processing
+  desc: AI & Image Processing, Developer
   social:
     - title: twitter
       url: #
@@ -38,7 +38,7 @@ people:
 - name: Mingi Kim
   pic: 1
   position: Lead Video Archive Solutions
-  desc: M.S. degree in Information Security Eng., DevOps
+  desc: M.S. degree in Info. Sec. Eng., DevOps
   social:
     - title: twitter
       url: #
@@ -50,7 +50,7 @@ people:
 - name: Taewon Lee
   pic: 3
   position: Lead Media Technology
-  desc: M.S. degree in Software Eng., Software Developer
+  desc: M.S. degree in Software Eng., Developer
   social:
     - title: twitter
       url: #
@@ -63,7 +63,7 @@ people:
 - name: It's you
   pic: recruit
   position: We are hiring!
-  #desc:
+  desc: Come with us!
   #social:
   #  - title: twitter
   #    url: #

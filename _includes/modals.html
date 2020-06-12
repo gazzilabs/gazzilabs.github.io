@@ -12,9 +12,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>이건가? {{ post.title }}</h2>
+                            <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% for postimg in post.imgs %}
+                                <img src="img/portfolio/{{ postimg }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% endfor %}
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:

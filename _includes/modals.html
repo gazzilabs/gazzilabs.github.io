@@ -14,7 +14,7 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            {% for postimg in post.imgs %}
+                            {% for postimg in post.tags %}
                                 <img src="img/portfolio/{{ postimg }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% endfor %}
                             <p>{{ post.description }}</p>

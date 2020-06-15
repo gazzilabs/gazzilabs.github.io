@@ -89,7 +89,7 @@ social:
 address:
   - line: 7F Start-up Campus,
   - line: 20 Pangyo-ro 289 beon-gil, Bundang-gu,
-  - line: Seongnam-si, Gyeonggi-do,13488, Korea
+  - line: Seongnam-si, Gyeonggi-do, 13488, Korea
 
 # Build settings
 markdown: kramdown

@@ -2,9 +2,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
                     <!--
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
@@ -14,6 +11,11 @@
                     </ul>
                     -->
                     <img src="img/logos/gazzi_logo_b.png" class="img-responsive img-centered" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
@@ -25,8 +27,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <span class="copyright">
+                <div class="col-md-4">
+                    <span>
                         {% for postal in site.address %}
                         {{ postal.line }}
                         {% endfor %}

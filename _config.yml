@@ -13,7 +13,7 @@ description: "Welcome to GazziLabs!"
 people:
 - name: Kiok Ahn, Ph.D.
   pic: 1
-  position: CEO
+  position: CEO, Founder
   desc: Machine Learning & Image Processing Specialist
   social:
     - title: twitter
@@ -35,10 +35,10 @@ people:
     - title: linkedin
       url: #
 
-- name: Mingi Kim
+- name: Mingi Kim, M.S.
   pic: 3
   position: Lead Video Archive Solutions
-  desc: M.S. degree in Info. Sec. Eng., DevOps
+  desc: AI & Image Processing, Massive digital media archives, DevOps
   social:
     - title: twitter
       url: #
@@ -47,10 +47,10 @@ people:
     - title: google-plus
       url: #
 
-- name: Taewon Lee
+- name: Taewon Lee, M.S.
   pic: 4
   position: Lead Media Technology
-  desc: M.S. degree in S/W Convergence Eng., Developer
+  desc: Contents Analysis, Distributed Media Processing, Developer
   social:
     - title: twitter
       url: #
@@ -58,7 +58,6 @@ people:
       url: #
     - title: google-plus
       url: #
-
 
 - name: It's you
   pic: recruit

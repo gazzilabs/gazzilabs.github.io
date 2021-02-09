@@ -2,9 +2,9 @@
 title: IVO Studio & eMovi Studio
 subtitle: 상품정보를 포함하는 영상 콘텐츠 제작, 감성인지 기반 비디오 요약 등을 위한 객체화 비디오 편집 및 AI 훈련을 위한 대량의 비디오 객체 레이블링과 시각화 검증을 반자동화(semi-automated) 하여 작업 효율을 극대화하는 ㈜가치랩스의 Video Objectification 솔루션을 제안합니다.
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2020-06-12
-tags: ivo_ui_01.png ivo_ui_02.png ivo_ui_all.png ivo_emovi.png
+tags: ivo_ui_01.png ivo_ui_02.png ivo_emovi.png
 thumbnail: ivo_product_ivostudio_emovistudio_thumbnail.png
 alt: image-alt
 #project-date: April 2014

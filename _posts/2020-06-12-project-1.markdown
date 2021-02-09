@@ -4,7 +4,7 @@ subtitle: 방송사고로 이어질 수 있는 콘텐츠 품질 오류, 중요 �
 layout: default
 modal-id: 1
 date: 2020-06-12
-tags: maqc_workflow.png hawkeye_ui_3.png agingwatcher_ui.png ivaf_hawkeye.png
+tags: maqc_workflow.png hawkeye_ui_3.png agingwatcher_ui.png ivaf_hawkeye_02.png
 thumbnail: maqc_product_hawkeye_thumbnail.png
 alt: image-alt
 #project-date: April 2014

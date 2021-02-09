@@ -8,7 +8,7 @@ tags: ivo_ui_01.png ivo_ui_02.png ivo_emovi.png
 thumbnail: ivo_product_ivostudio_emovistudio_thumbnail.png
 alt: image-alt
 #project-date: April 2014
-client: Domestic company
+client: Domestic companies
 category: IVO (Intelligent Video Objectification)
 description: IVO Studio는 수작업에 의존하는 영상 콘텐츠의 컨텍스트 분석을 통한 Object detection & tracking 및 Facial detection & recognition을 비롯하여 Object tagging을 자동화하고 콘텐츠 시청 중 user interaction을 위한 action 부여 기능, Scene & Shot 기반 장면전환 인식 및 Timeline기반 객체 모니터링을 지원하며, 비디오 객체 tagging을 위한 직관적인 metadata 관리 체계를 제공합니다.<br>eMovi Studio는 이러한 객체화 편집 기술을 바탕으로 비디오 원본의 인물 기반 감성인지를 바탕으로 주요 장면을 추출하고 요약 비디오의 생성을 자동화합니다.<br>이는 주요 지상파 및 IPTV 사업자, 그리고 대규모 아카이브를 운용하는 공공기관 도입을 통해 입증된 대량의 대용량 비디오 및 오디오 데이터 분석 프레임웍인 IVAF에 기반합니다.
 ---

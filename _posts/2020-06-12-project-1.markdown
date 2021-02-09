@@ -4,11 +4,11 @@ subtitle: 방송사고로 이어질 수 있는 콘텐츠 품질 오류, 중요 �
 layout: default
 modal-id: 1
 date: 2020-06-12
-tags: maqc_workflow.png hawkeye_ui_2.png
-thumbnail: maqc_product_hawkeye_argoseye_thumbnail.png
+tags: maqc_workflow_hawkeye.png hawkeye_ui_3.png ivaf_hawkeye.png
+thumbnail: maqc_product_hawkeye_thumbnail.png
 alt: image-alt
 #project-date: April 2014
-client: KBS, KT Skylife, SK Broadband,LG U+, National Archives of Korea
+client: KBS, KT Skylife, SK Broadband, LG U+, National Archives of Korea, National Institute for Lifelong Education
 category: MAQC (Media Asset Quality Control)
-description: Hawkeye 시리즈와 Argoseye STB는 방송통신분야 및 미디어 아카이브를 위한 미디어 생명 전주기에 대응하는 품질검사 자동화 및 관리 솔루션을 제공합니다.<br>우리의 미디어 아카이브 품질관리 솔루션은 자동화된 분석 및 시각화를 통해 작업자의 의사결정을 보다 빠르게 수행할 수 있도록 지원합니다.<br>이는 주요 지상파 및 IPTV 사업자, 그리고 대규모 아카이브를 운용하는 공공기관 도입을 통해 입증된 대량의 대용량 비디오 및 오디오 데이터 분석 프레임웍인 IVAP에 기반합니다.
+description: Hawkeye VED 및 RED 시리즈는 방송통신분야 및 미디어 아카이브를 위한 미디어 생명 전주기에 대응하는 품질검사 자동화 및 관리 솔루션을 제공합니다.<br>우리의 미디어 아카이브 품질관리 솔루션은 콘텐츠를 구성하는 자동화된 오디오비주얼 데이터의 내용기반 분석 및 시각화를 통해<br>품질관리활동을 위한 작업자의 의사결정을 보다 빠르게 수행할 수 있도록 지원합니다.<br>이는 주요 지상파 및 IPTV 사업자, 그리고 대규모 아카이브를 운용하는 공공기관 도입을 통해 입증된 대량의 대용량 비디오 및 오디오 데이터 분석 프레임웍인 IVAP에 기반합니다.
 ---

@@ -12,7 +12,7 @@ description: "Welcome to GazziLabs!"
 # Team names, titles and social links
 people:
 - name: Kiok Ahn, Ph.D.
-  pic: 1
+  pic: 1_bw
   position: CEO, Founder
   desc: Machine Learning & Image Processing Specialist
   social:
@@ -24,7 +24,7 @@ people:
       url: #
 
 - name: Youngtak Cho, Ph.D.
-  pic: 2
+  pic: 2_bw
   position: CTO, Lead AI Application
   desc: AI & Image Processing, Visual Programming, Developer
   social:
@@ -36,7 +36,7 @@ people:
       url: #
 
 - name: Mingi Kim, M.S.
-  pic: 3
+  pic: 3_bw
   position: Lead Video Archive Solutions
   desc: AI & Image Processing, Massive digital media archives, DevOps
   social:
@@ -48,7 +48,7 @@ people:
       url: #
 
 - name: Taewon Lee, M.S.
-  pic: 4
+  pic: 4_bw
   position: Lead Media Technology
   desc: Contents Analysis, Distributed Media Processing, Developer
   social:
@@ -60,7 +60,7 @@ people:
       url: #
 
 - name: It's you
-  pic: recruit
+  pic: recruit_bw
   position: We are hiring!
   desc: Come with us!
   #social:

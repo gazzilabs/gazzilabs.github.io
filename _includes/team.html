@@ -1,40 +1,51 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">인공지능 및 미디어 기술 전문가들이 뭉쳤습니다!</h3>
-                </div>
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Team</h2>
+                <h3 class="section-subheading text-muted">인공지능 및 미디어 기술 전문가들이 뭉쳤습니다!</h3>
             </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <p class="text-muted">{{ member.desc }}</p>
-                        <!--
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
+        </div>
 
-                        </ul>
-                        -->
-                    </div>
+
+        <div class="row">
+
+            <div class="col-sm-3">
+                <div class="team-member" style="position:relative;">
+                    <h4>Kiok Ahn, Ph.D.</h4>
+                    <p class="text-white">CEO, Founder</p>
+                    <img src="img/team/1_bw.jpg" class="img-responsive img-circle" alt="">
+                    <p class="text-muted">Machine Learning &amp; Image Processing Specialist</p>
                 </div>
-                {% endfor %}
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">가치랩스는 영상처리 및 머신러닝 기술을 바탕으로 방송통신분야와 미디어 아카이브를 대상으로 대규모 비디오 데이터 처리를 위한 응용 시스템 분야에서 수년간 연구개발 실무를 수행한 전문가들이 주축이 되어 시작하였습니다. 인공지능 기술을 보다 손쉽게, 그리고 설명 가능한 방식으로 누구나 이용할 수 있도록 돕는 것이 우리의 목표입니다.</p>
+
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <h4>Youngtak Cho, Ph.D.</h4>
+                    <p class="text-white">CTO, Lead AI Application</p>
+                    <img src="img/team/2_bw.jpg" class="img-responsive img-circle" alt="">
+                    <p class="text-muted">AI &amp; Image Processing, Visual Programming, Developer</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <h4>Mingi Kim, M.S.</h4>
+                    <p class="text-white">Lead Video Archive Solutions</p>
+                    <img src="img/team/3_bw.jpg" class="img-responsive img-circle" alt="">
+                    <p class="text-muted">AI &amp; Image Processing, Massive digital media archives, DevOps</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <h4>Taewon Lee, M.S.</h4>
+                    <p class="text-white">Lead Media Technology</p>
+                    <img src="img/team/4_bw.jpg" class="img-responsive img-circle" alt="">
+                    <p class="text-muted">Contents Analysis, Distributed Media Processing, Developer</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>

@@ -59,17 +59,6 @@ people:
     - title: google-plus
       url: #
 
-- name: It's you
-  pic: recruit_bw
-  position: We are hiring!
-  desc: Come with us!
-  #social:
-  #  - title: twitter
-  #    url: #
-  #  - title: facebook
-  #    url: #
-  #  - title: google-plus
-  #    url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

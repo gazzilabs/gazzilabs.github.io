@@ -14,6 +14,12 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
+section#services .text-muted, section#solutions .text-muted, .text-white {
+    color: #{{ site.data.template.color.colorwhite }};
+}
+
+
+
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
@@ -216,22 +222,22 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #53c57b;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    color: #{{site.data.template.color.primary}};
+    border-bottom: 5px solid #{{site.data.template.color.primary}};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    filter: brightness(120%);
+    color: #{{site.data.template.color.primary}};
+    border-bottom: 5px solid #{{site.data.template.color.primary}};
 }
 
 @media(min-width:768px) {
@@ -252,12 +258,12 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 0px;
     }
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color:rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, 1);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -269,7 +275,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/slide1.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -337,10 +343,10 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
+    line-height: 1.8;
 }
 
 @media(min-width:768px) {
@@ -352,6 +358,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: #3AAB62;
 }
 
 #portfolio .portfolio-item {
@@ -413,6 +420,10 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+}
+
+#solutions .portfolio-item .portfolio-caption h4 {
+    color: #3AAB62;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -635,17 +646,24 @@ section h3.section-subheading {
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+    position:relative;
+    border-radius: 3px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    background: linear-gradient(#182D56 0%,#182D56 50%,#f6f6f6 50%,#f6f6f6 100%); 
+    padding: 20px;
 }
 
 .team-member img {
-    margin: 0 auto;
+    margin: 20px auto;
     border: 7px solid #fff;
+    width: calc(100% - 60px);
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    color: #3AAB62;
 }
 
 .team-member p {
@@ -657,13 +675,16 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #182D56;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
+    color: #fff;
+}
+section#services .section-heading {
     color: #fff;
 }
 
@@ -864,4 +885,26 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+
+.hist_mount {
+    font-size: 18px;
+    color: #182D56;
+    text-align: right;
+    font-weight: 600;
+    font-family: {{ site.data.template.font.primary }};
+}
+
+
+.imgAboutUs {
+    background-image: url('{{ site.baseurl }}/img/qualityScore.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 30vh;
+    min-height: 300px;
 }

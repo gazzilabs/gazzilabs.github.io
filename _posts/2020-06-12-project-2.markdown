@@ -1,5 +1,5 @@
 ---
-title: IVO Studio & eMovi Studio
+title: Video Objectification 솔루션
 subtitle: 상품정보를 포함하는 영상 콘텐츠 제작, 감성인지 기반 비디오 요약 등을 위한 객체화 비디오 편집 및 AI 훈련을 위한 대량의 비디오 객체 레이블링과 시각화 검증을 반자동화(semi-automated) 하여 작업 효율을 극대화하는 ㈜가치랩스의 Video Objectification 솔루션을 제안합니다.
 layout: default
 modal-id: 2
@@ -10,5 +10,5 @@ alt: image-alt
 #project-date: April 2014
 client: Domestic companies
 category: IVO (Intelligent Video Objectification)
-description: IVO Studio는 수작업에 의존하는 영상 콘텐츠의 컨텍스트 분석을 통한 Object detection & tracking 및 Facial detection & recognition을 비롯하여 Object tagging을 자동화하고 콘텐츠 시청 중 user interaction을 위한 action 부여 기능, Scene & Shot 기반 장면전환 인식 및 Timeline기반 객체 모니터링을 지원하며, 비디오 객체 tagging을 위한 직관적인 metadata 관리 체계를 제공합니다.<br>eMovi Studio는 이러한 객체화 편집 기술을 바탕으로 비디오 원본의 인물 기반 감성인지를 바탕으로 주요 장면을 추출하고 요약 비디오의 생성을 자동화합니다.<br>이는 주요 지상파 및 IPTV 사업자, 그리고 대규모 아카이브를 운용하는 공공기관 도입을 통해 입증된 대량의 대용량 비디오 및 오디오 데이터 분석 프레임웍인 IVAF에 기반합니다.
+description: ㈜가치랩스의 Video Objectification 솔루션은 비디오 내 객체의 검출, 인식, 추적을 통해 콘텐츠 활용 목적에 따라 객체 단위 분석 및 편집 가능하도록 합니다. IVO Studio는 수작업에 의존하는 영상 콘텐츠의 컨텍스트 분석을 통한 Object detection & tracking 및 Facial detection & recognition을 비롯하여 Object tagging을 자동화하고 콘텐츠 시청 중 user interaction을 위한 action 부여 기능, Scene & Shot 기반 장면전환 인식 및 Timeline기반 객체 모니터링을 지원하며, 비디오 객체 tagging을 위한 직관적인 metadata 관리 체계를 제공합니다. eMovi Studio는 이러한 객체화 편집 기술을 바탕으로 비디오 원본의 인물 기반 감성인지를 바탕으로 주요 장면을 추출하고 요약 비디오의 생성을 자동화합니다. 이는 주요 지상파 및 IPTV 사업자, 그리고 대규모 아카이브를 운용하는 공공기관 도입을 통해 입증된 대량의 대용량 비디오 및 오디오 데이터 분석 프레임웍인 IVAF에 기반합니다. ㈜가치랩스의 Video Objectification 솔루션은 다음과 같은 주요 기능적 특징을 갖습니다. <br>⃟ 타임라인 기반 목표 객체 탐지 시각화 <br>⃟ 객체 검출 및 추적, 자동 태깅 및 비디오 객체화 편집 <br>⃟ AI 훈련 데이터셋 대량 가공 및 클린징 <br>⃟ 콘텐츠 내 상품정보 매칭 및 V-Commerce 콘텐츠 생산 등
 ---

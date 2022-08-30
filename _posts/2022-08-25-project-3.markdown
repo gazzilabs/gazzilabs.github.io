@@ -1,0 +1,15 @@
+---
+title: Aging Test 솔루션
+subtitle: 방송 수신용 셋톱박스의 비디오 및 오디오 품질, UI 제어 및 동작 모니터링 등, 실시간 다채널 동시 테스트를 위한 ㈜가치랩스의 자동화 Aging test 솔루션을 제안합니다.
+layout: page
+modal-id: 3
+date: 2020-06-12
+tags: maqc_workflow.png agingwatcher_ui.png ivaf_hawkeye_02.png
+thumbnail: AgingTest-thumbnail.png
+alt: image-alt
+#project-date: April 2014
+client: Domestic companies
+category: IVO (Intelligent Video Objectification)
+description: ㈜가치랩스의 Aging Watcher는 방송통신분야 미디어 생명주기에서 댁내수신을 위한 단말의 오디오비주얼 데이터 품질 및 UI 동작 검증을 위한 aging test 자동화 솔루션입니다. 우리의 솔루션은 수신 콘텐츠에 대한 자동화된 오디오비주얼 데이터의 내용기반 분석 및 시각화는 물론 RF 리모컨 제어를 통해 다채널 동시 UI 제어 및 동작 모니터링을 바탕으로 품질관리활동을 위한 작업자의 의사결정을 보다 빠르게 수행할 수 있도록 지원합니다. 이는 주요 지상파 및 IPTV 사업자, 그리고 대규모 아카이브를 운용하는 공공기관 도입을 통해 입증된 대량의 대용량 오디오비주얼 데이터 분석 프레임웍인 IVAF에 기반합니다. <br>⃟ ㈜가치랩스의 Aging test 솔루션이 제공하는 주요 기능적 특징은 다음과 같습니다. <br>⃟ 실시간 다채널 동시 UI 제어 및 동작 모니터링 <br>⃟ 실시간 오디오비주얼 데이터 품질 모니터링 <br>⃟ 영상기반 UI 동작 규격 정합성 검증 <br>⃟ STB 등 영상수신장치 입력신호 동기화 검증 <br>⃟ 참조 및 비참조 방식 품질 검수 자동화 <br>⃟ 출하 검사, 납품 검사, 에이징 테스트, 스트레스 테스트
+
+---

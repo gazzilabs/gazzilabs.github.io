@@ -82,3 +82,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+

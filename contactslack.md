@@ -10,7 +10,7 @@ permalink: /contactslack/
 
     <body id="page-top" class="index">
 
-    {% include contactSlack.html %}
+    {% include contactslack.html %}
     {% include footer.html %}
     {% include js.html %}
 

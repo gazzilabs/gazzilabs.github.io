@@ -92,6 +92,6 @@ plugins:
 ---
 layout: redirected
 sitemap: false
-permalink: /oldlocation/
-redirect_to:  /newlocation/
+permalink: /playground/
+redirect_to:  http://49.50.160.122:3000/
 ---

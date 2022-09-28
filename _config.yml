@@ -1,6 +1,14 @@
 url: "https://gazzilabs.github.io"
 baseurl: ""
 
+---
+layout: redirected
+sitemap: false
+permalink: /playground/
+redirect_to:  http://49.50.160.122:3000/
+---
+
+
 # Site settings
 encoding: "UTF-8"
 locale: "en-US"
@@ -89,9 +97,3 @@ plugins:
 
 
 
----
-layout: redirected
-sitemap: false
-permalink: /playground/
-redirect_to:  http://49.50.160.122:3000/
----

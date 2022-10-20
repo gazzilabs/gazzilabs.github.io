@@ -1,66 +1,92 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!--<a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>-->
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="img/logos/GazziLabH_bg_D.svg" class="img-responsive img-centered" style="width:170px;" alt="">
-                </a>
-            </div>
+<div class="warningpopuphide" id="warningclosed" onclick="closewarningPop_up()"></div>
+<div class="warningpopup-containerhide" id="warningpopup-container">
+    <center>
+        <div style="width: 110px;"></div>
+    </center>
+    <a class="warningpopup-close" href="#">X</a>
+</div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#solutions">Solutions</a>
-                    </li>
-                    <li>
-                        <a class="page-link" href="voucher">Voucher</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#clientspartners">Clients</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>-->
+            <a class="navbar-brand page-scroll" href="#page-top">
+                <img src="img/logos/GazziLabH_bg_D.svg" class="img-responsive img-centered" style="width:170px;" alt="">
+            </a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading text-left">Integrated,<br><spam style="color:#3AAB62;">Auto</spam>mated,<br><spam style="color:#3AAB62;">Visual</spam>ized<br>and <spam style="color:#3AAB62;">Explained</spam></div>
-                <div class="intro-lead-in text-left">Manage your AI production life-cycle</div>
-            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#solutions">Solutions</a>
+                </li>
+                <li>
+                    <a class="page-link" href="voucher">Voucher</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#clientspartners">Clients</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">Team</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading text-left">Integrated,<br>
+                <spam style="color:#3AAB62;">Auto</spam>mated,<br>
+                <spam style="color:#3AAB62;">Visual</spam>ized<br>and <spam style="color:#3AAB62;">Explained</spam>
+            </div>
+            <div class="intro-lead-in text-left">Manage your AI production life-cycle</div>
+        </div>
+    </div>
+    <script>
+
+        document.getElementsByTagName("body").addEventListener("load", warningPop_up());
+        function warningPop_up(obj) {
+            document.getElementById("warningclosed").className = 'warningpopuptarget';
+            document.getElementById("warningpopup-container").className = 'warningpopup-container';
+            document.getElementById("warningpopup-container").innerHTML = '';
+            document.getElementById("warningpopup-container").innerHTML = '<div class="warningMessage"><img src="img/seminarGazzi202210.png"></div><a class="warningpopup-close" onclick="closewarningPop_up()">X</a>';
+        }
+        function closewarningPop_up() {
+            document.getElementById("warningclosed").className = 'warningpopuphide';
+            document.getElementById("warningpopup-container").className = 'warningpopup-containerhide';
+            document.getElementById("warningpopup-container").innerHTML = '';
+        }
+    </script>
+</header>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-

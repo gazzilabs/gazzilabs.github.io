@@ -73,16 +73,19 @@
 
         document.getElementsByTagName("body").addEventListener("load", warningPop_up());
         function warningPop_up(obj) {
+
             document.getElementById("warningclosed").className = 'warningpopuptarget';
             document.getElementById("warningpopup-container").className = 'warningpopup-container';
             document.getElementById("warningpopup-container").innerHTML = '';
-            document.getElementById("warningpopup-container").innerHTML = '<div class="warningMessage"><img src="img/seminarGazzi202210.png"></div><a class="warningpopup-close" onclick="closewarningPop_up()">X</a>';
+            document.getElementById("warningpopup-container").innerHTML = '<div class="warningMessage"><a href="https://khu-ac.zoom.us/j/3991466437?pwd=NWJ0YXdxeVNmRDR3UmhCVjBBTkRvZz09" target="_blank"><img src="img/liveseminar.svg" style="padding:20px;"></a><img src="img/seminarGazzi202210.png"></div><a class="warningpopup-close" onclick="closewarningPop_up()">X</a>';
         }
         function closewarningPop_up() {
             document.getElementById("warningclosed").className = 'warningpopuphide';
             document.getElementById("warningpopup-container").className = 'warningpopup-containerhide';
             document.getElementById("warningpopup-container").innerHTML = '';
         }
+
+
     </script>
 </header>
 <!--

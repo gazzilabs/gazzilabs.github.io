@@ -1,11 +1,4 @@
 <!-- Navigation -->
-<div class="warningpopuphide" id="warningclosed" onclick="closewarningPop_up()"></div>
-<div class="warningpopup-containerhide" id="warningpopup-container">
-    <center>
-        <div style="width: 110px;"></div>
-    </center>
-    <a class="warningpopup-close" href="#">X</a>
-</div>
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -69,24 +62,6 @@
             <div class="intro-lead-in text-left">Manage your AI production life-cycle</div>
         </div>
     </div>
-    <script>
-
-        document.getElementsByTagName("body").addEventListener("load", warningPop_up());
-        function warningPop_up(obj) {
-
-            document.getElementById("warningclosed").className = 'warningpopuptarget';
-            document.getElementById("warningpopup-container").className = 'warningpopup-container';
-            document.getElementById("warningpopup-container").innerHTML = '';
-            document.getElementById("warningpopup-container").innerHTML = '<div class="warningMessage"><a href="https://khu-ac.zoom.us/j/3991466437?pwd=NWJ0YXdxeVNmRDR3UmhCVjBBTkRvZz09" target="_blank"><img src="img/liveseminar.svg" style="padding:20px;"></a><img src="img/seminarGazzi202210.png"></div><a class="warningpopup-close" onclick="closewarningPop_up()">X</a>';
-        }
-        function closewarningPop_up() {
-            document.getElementById("warningclosed").className = 'warningpopuphide';
-            document.getElementById("warningpopup-container").className = 'warningpopup-containerhide';
-            document.getElementById("warningpopup-container").innerHTML = '';
-        }
-
-
-    </script>
 </header>
 <!--
         {% for page in site.pages %}

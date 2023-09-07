@@ -794,6 +794,8 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -829,6 +831,11 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
+
+.modal-content-invite{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
 
 .portfolio-modal .close-modal {
     position: absolute;

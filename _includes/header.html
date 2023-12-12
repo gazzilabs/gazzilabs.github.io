@@ -54,6 +54,35 @@
 <!-- Header -->
 <header>
 
+    <!-- Modal -->
+    <div class="modal show" id="modalinvite" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="false" onclick="closemodal()">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content modal-content-invite">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closemodal()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <img src="img\crowdworker_invite.png" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function closemodal() {
+            const modalElement = document.getElementById('modalinvite');
+
+            // Remove a class
+            modalElement.classList.remove('show');
+
+            // Add a class
+            modalElement.classList.add('fade');
+
+        }
+    </script>
+
+    
     <div class="container">
         <div class="intro-text">
             <div class="intro-heading text-left">Integrated,<br>

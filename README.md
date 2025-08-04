@@ -58,3 +58,5 @@ bundle exec jekyll serve
 Edit HTML on path "_includes"
 
 Main Layout is on "_layouts\default.html"
+
+# After commited wait on github - pages build and deployment
